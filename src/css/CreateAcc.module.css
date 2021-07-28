@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap");
+
+body {
+  background-color: #e3e3e3;
+}
+
+.container {
+  font-family: "Montserrat";
+  min-height: 100vh;
+  display: flex;
+}
+
+.sectionMessage {
+  background-color: #242038;
+  flex: 1;
+}
+
+.sectionInput {
+  min-height: 40rem;
+  background-color: #fff;
+  flex: 1;
+}
+
+.formAcct {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
+.hf {
+  font-size: 3.8rem;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 3.8rem;
+  letter-spacing: 0.28px;
+  color: #1b2733;
+  text-transform: uppercase;
+  display: inline-block;
+  outline: none;
+  margin-top: 4rem;
+  margin-bottom: 5.1rem;
+  margin-left: -18rem;
+}
+
+label {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 2.2rem;
+  letter-spacing: 1.5px;
+  color: #6b6c6f;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+.inputStyle {
+  width: 50.3rem;
+  height: 5.8rem;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  line-height: 22px;
+  letter-spacing: inherit;
+  border: 1px solid #e3e3e3;
+  border-radius: 20px;
+  margin-left: -1.5rem;
+}
+
+.inputStyle:not(:last-child) {
+  margin-bottom: 3.2rem;
+}
+
+.inputStyle:focus,
+.inputStyle:active,
+.inputStyle:hover {
+  outline: none;
+  background-color: #fff;
+}
+
+.inputSubmit {
+  width: 50.3rem;
+  height: 5.8rem;
+  font-family: inherit;
+  font-size: inherit;
+  color: #fff;
+  line-height: 22px;
+  letter-spacing: inherit;
+  border: 1px solid #e3e3e3;
+  border-radius: 20px;
+  background-color: #242038;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 3.7rem;
+}
+
+.inputStyle:focus,
+.inputStyle:active,
+.inputStyle:hover {
+  outline: none;
+  background-color: #fff;
+}
+
+.pbx {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 20px;
+  width: 50.3rem;
+  height: 5.8rem;
+  margin-left: -1.5rem;
+  margin-bottom: 3.2rem;
+}
+
+.inputStylep {
+  width: 90%;
+  min-height: 100%;
+  font-family: inherit;
+  font-size: 1.8rem;
+  color: inherit;
+  line-height: 22px;
+  letter-spacing: inherit;
+  border: 0;
+  outline: none;
+  border-radius: 20px;
+  margin-left: 1rem;
+}
+
+.mailImg {
+  height: 3rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.bt {
+  font-size: 1.9rem;
+  font-family: "AvenirNext", sans-serif;
+  line-height: 2.2rem;
+  letter-spacing: 1.58333px;
+  color: #b2afaf;
+  margin-left: -3.5rem;
+}
+
+.bt span:visited,
+.bt span:link {
+  color: #e38777;
+  font-style: italic;
+  font-family: "AvenirNext", sans-serif;
+}
+
+.bt span a {
+  text-decoration: none;
+  color: #f00;
+}

@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap");
+
+body {
+  background-color: #e3e3e3;
+}
+
+.container {
+  font-family: "Montserrat";
+  min-height: 100vh;
+  display: flex;
+}
+
+.sectionMessage {
+  background-color: #242038;
+  flex: 1;
+}
+
+.sectionInput {
+  min-height: 40rem;
+  background-color: #fff;
+  flex: 1;
+}
+
+.formAcct {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
+.ht {
+  font-size: 3.8rem;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 4.6rem;
+  letter-spacing: 0.285px;
+  color: #1b2733;
+  text-transform: uppercase;
+  display: inline-block;
+  outline: none;
+  margin-top: 14rem;
+  margin-bottom: 13rem;
+  margin-left: -9.5rem;
+}
+
+.es {
+  font-size: 2.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.4rem;
+  color: #62ab37;
+}
+
+.textR {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.ht,
+.es,
+.textR {
+  text-align: center;
+}
+
+.btn {
+  width: 50.3rem;
+  height: 5.8rem;
+  font-size: 1.7rem;
+  color: #fff;
+  line-height: 2.1rem;
+  letter-spacing: inherit;
+  background-color: #242038;
+  border-radius: 20px;
+  border: none;
+  margin-top: 7.6rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
