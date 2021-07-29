@@ -4,6 +4,7 @@ import ForgetPassword from './components/ForgetPassword';
 import Login from './components/Login';
 import Paswrdreset from './components/Paswrdreset';
 import Rootlogin from './components/Rootlogin';
+import Sendsms from './components/Sendsms';
 import './App.css';
 
 class App extends Component {
@@ -11,11 +12,12 @@ class App extends Component {
   render() { 
     return (
       <div>
-        <Rootlogin />
-        {/* <Login />
-        <Paswrdreset />
-        <ForgetPassword />
-        <CreateAcc /> */}
+        <Sendsms />
+        {/* <Rootlogin /> */}
+         {/* <Login /> */}
+        {/* <Paswrdreset /> */}
+        {/* <ForgetPassword /> */}
+        {/* <CreateAcc />  */}
       </div>
     );
   }

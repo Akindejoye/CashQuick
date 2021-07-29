@@ -1,0 +1,489 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap");
+
+body {
+  font-family: "Montserrat" sans-serif;
+}
+
+.container {
+  width: auto;
+  min-height: 100vh;
+  background-color: #f0f3f8;
+  display: flex;
+}
+
+.navigation {
+  min-height: 95.4rem;
+  min-width: 25rem;
+  background-color: #264653;
+}
+
+.logoBox {
+  width: 11.5rem;
+  height: 11.5rem;
+  background-color: #eef1f6;
+  border: 1px solid #979797;
+  margin-top: 5.7rem;
+  margin-left: 7.2rem;
+  margin-bottom: 7.8rem;
+  border-radius: 100px;
+}
+
+.nav {
+  font-size: 1.6rem;
+  list-style: none;
+  line-height: 2.4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.navList:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+
+.navA:link,
+.navA:visited {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1.5rem 3rem;
+
+  display: flex;
+}
+
+.navImg {
+  width: 2.3rem;
+  height: 2.3rem;
+  margin-right: 1.6rem;
+  color: white;
+}
+
+.contImg {
+  position: relative;
+}
+
+.navImgs {
+  position: absolute;
+  top: 0.7rem;
+  left: 0.7rem;
+}
+
+.contDy {
+  position: relative;
+}
+
+.sort {
+  width: 1.5rem;
+  height: 1.5rem;
+
+  position: absolute;
+  top: 0.3rem;
+  right: 3.1rem;
+}
+
+.contShd {
+  position: relative;
+}
+
+.shedule {
+  width: 1.5rem;
+  height: 1.5rem;
+
+  position: absolute;
+  top: 1rem;
+  right: 1.7rem;
+  z-index: 100;
+}
+
+.contHlp {
+  position: relative;
+}
+
+.angle {
+  width: 1rem;
+  height: 1rem;
+
+  position: absolute;
+  top: 0.9rem;
+  left: 15rem;
+  z-index: 100;
+}
+
+.main {
+  min-height: 95.4rem;
+  flex: 1;
+  margin-left: 5.5rem;
+}
+
+.topList {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 3.9rem;
+  margin-right: 7.7rem;
+}
+
+.topItems {
+  margin-right: 5.5rem;
+}
+
+.topA:link,
+.topA:visited {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.topImg {
+  width: 3.3rem;
+  height: 3.3rem;
+}
+
+#notification {
+  position: relative;
+}
+
+.imgNot {
+  color: #aaa;
+  background-color: #e02020;
+  padding: 1.5px;
+  border-radius: 100px;
+  position: absolute;
+  right: 22.4rem;
+}
+
+.headText {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #6d7278;
+  text-transform: uppercase;
+  margin-top: 2.3rem;
+}
+
+.contRow {
+  display: flex;
+}
+
+.senderD {
+  background-color: #fff;
+  width: 75.2rem;
+  height: 6.7rem;
+  border-radius: 1.8rem;
+  margin-top: 4.6rem;
+  margin-bottom: 3rem;
+}
+
+.senderId {
+  width: 95%;
+  height: 100%;
+  font-family: inherit;
+  font-size: 1.6rem;
+  color: inherit;
+  line-height: 22px;
+  letter-spacing: inherit;
+  background-color: #fff;
+  margin-left: 2rem;
+  box-shadow: 0px 0px 60px rgba(0, 0, 0 0.04);
+  outline: none;
+  border: none;
+}
+
+.senderId::placeholder {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #b2afaf;
+  padding-left: 2rem;
+}
+
+.senderC {
+  width: 75.2rem;
+  height: 11.4rem;
+  border-radius: 1.8rem;
+  margin-bottom: 3rem;
+  background-color: #fff;
+}
+
+.senderContact {
+  width: 95%;
+  height: 100%;
+  font-family: inherit;
+  font-size: 1.6rem;
+  color: inherit;
+  line-height: 22px;
+  letter-spacing: inherit;
+  background-color: #fff;
+  margin-left: 2rem;
+  box-shadow: 0px 0px 60px rgba(0, 0, 0 0.04);
+  outline: none;
+  border: none;
+  position: relative;
+}
+
+.senderContact::placeholder {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #b2afaf;
+  display: inline-block;
+  padding-left: 2rem;
+  margin-bottom: 6rem;
+
+  position: absolute;
+  top: 2.6rem;
+}
+
+.btnGroup {
+  margin-bottom: 3.5rem;
+}
+
+.btnFile {
+  width: 13.3rem;
+  height: 3.5rem;
+  border-radius: 8px;
+  background-color: #ab3428;
+  color: #fff;
+  outline: none;
+  border: none;
+  margin-right: 9px;
+}
+
+.btnPhone {
+  width: 18rem;
+  height: 3.5rem;
+  border-radius: 8px;
+  background-color: #e9c46a;
+  color: #000;
+  outline: none;
+  border: none;
+}
+
+.mess {
+  background-color: #fff;
+  width: 75.2rem;
+  height: 25.1rem;
+  border-radius: 1.8rem;
+  margin-bottom: 4rem;
+}
+
+.messText {
+  width: 90%;
+  height: 20rem;
+  background-color: #fff;
+  margin-top: 3rem;
+  margin-left: 3.5rem;
+  outline: none;
+  border: none;
+}
+
+.messText::placeholder {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #b2afaf;
+  display: inline-block;
+  padding-left: 1rem;
+  margin-top: 5px;
+
+  position: absolute;
+  top: 2.6rem;
+}
+
+.btnCont {
+  display: flex;
+  align-items: center;
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+}
+
+.btnSmt {
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  background-color: #2a9d8f;
+  width: 15rem;
+  height: 5.8rem;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding-right: 2.5rem;
+}
+
+.imgSub {
+  margin-left: -4rem;
+  cursor: pointer;
+}
+
+.textAlert {
+  display: inline-block;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  color: #b2afaf;
+  margin-left: 4.4rem;
+}
+
+.btnBottom {
+  position: relative;
+  margin-top: 7rem;
+  margin-bottom: 9.9rem;
+}
+
+.btnBtm {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 1.5rem;
+}
+
+.btnBottom span {
+  display: inline-block;
+  font-size: 1.4rem;
+  color: inherit;
+  line-height: 1.6rem;
+  background-color: #264653;
+  width: 20.2rem;
+  height: 4.7rem;
+  border-radius: 8px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 1.5rem;
+  padding-left: 6px;
+}
+
+.imgBtn {
+  position: absolute;
+  top: 1.1rem;
+  left: 1rem;
+}
+
+.btnBtms {
+  text-decoration: none;
+  color: #fff;
+}
+
+.imgBtns {
+  position: absolute;
+  top: 0.8rem;
+  left: 23rem;
+}
+
+.asideContainer {
+  margin-left: 9rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 7rem;
+}
+
+.asideTop {
+  width: 25rem;
+  height: 34.5rem;
+  border-radius: 1.4rem;
+  background-color: #fff;
+
+  position: relative;
+}
+
+.profilePics {
+  display: block;
+  position: absolute;
+  top: 4.4rem;
+  left: 9.8rem;
+}
+
+.profileHeading {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #000;
+
+  position: absolute;
+  top: 10rem;
+  left: 10.3rem;
+}
+
+.profileName {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: #000;
+  opacity: 0.6;
+  display: block;
+
+  position: absolute;
+  top: 11.7rem;
+  left: 6.9rem;
+}
+
+.profileCount {
+  font-size: 3.2rem;
+  line-height: 3.7rem;
+  text-transform: uppercase;
+  color: #000;
+  display: block;
+
+  position: absolute;
+  top: 18.1rem;
+  left: 6.4rem;
+}
+
+.countBalance {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  color: #6d7278;
+  display: block;
+
+  position: absolute;
+  top: 22.5rem;
+  left: 9.9rem;
+}
+
+.contTopUp {
+  background-color: #2a9d8f;
+  width: 11.4rem;
+  height: 3.5rem;
+  border-radius: 8px;
+
+  position: absolute;
+  top: 27.9rem;
+  left: 6.8rem;
+}
+
+.btnTopUp {
+  text-decoration: none;
+  padding-top: 4px;
+  padding-left: 15px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.textTopUp {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: #fff;
+}
+
+.asideBtm {
+  background-color: #fff;
+  min-width: 25rem;
+  min-height: 13.3rem;
+  border-radius: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.messageFig {
+  font-size: 3.2rem;
+  line-height: 3.7rem;
+  color: #000;
+}
+
+.figText {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  color: #6d7278;
+}
