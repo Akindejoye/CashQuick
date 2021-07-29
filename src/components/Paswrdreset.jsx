@@ -6,7 +6,7 @@ const Paswrdreset = () => {
         <div className={Passreset.container}>
             <div className={Passreset.sectionMessage}></div>
             <div className={Passreset.sectionInput}>
-                <div  className={Passreset.formAcct}>
+                <div className={Passreset.formAcct}>
                     <h1 className={Passreset.hf}>Forgot Password</h1>
                     <h3 className={Passreset.rpxt}>Enter your email receive link to reset password</h3>
                     <form action="">
